@@ -1,0 +1,26 @@
+@use 'partials/_bool';
+
+.traditional{
+    background-color: $f-c-bg ;
+    .row{
+        margin: 20px 0 20px 0;
+        .col-12{
+            text-align: center;
+            img{
+                height: 250px;
+            }
+        }
+        .col-4{
+            img{
+                height: 100px;
+            }
+
+        }
+    }
+    .row:first-child{
+        margin-top: 60px;
+    }
+    hr{
+        color: $s-c-t;
+    }
+}

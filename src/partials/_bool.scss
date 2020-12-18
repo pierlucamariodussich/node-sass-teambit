@@ -85,3 +85,71 @@
 .debug{
     border:1px solid black;
 }
+
+
+$f-c-bg: #0414b3;
+$s-c-bg: white;
+
+$f-c-t:#7f14D4;
+$s-c-t:#ffffff;
+$t-c-t:#0E14EE;
+
+$f-c-but:#2d4792;
+$s-c-but:white;
+
+
+
+h1{
+    font-size: 35px ;
+    line-height: 50px ;
+    font-weight: 600 ;
+    color:$f-c-t ;
+    margin-bottom:15px;
+
+}
+
+h2{
+    font-size: 18px ;
+    line-height: 20px ;
+    font-weight: 300 ;
+    color:$s-c-t ;
+    margin:15px 0;
+}
+
+h3{
+    font-size: 18px ;
+    line-height: 20px ;
+    font-weight: 400 ;
+    color:$t-c-t ;
+    margin:15px 0;
+
+}
+
+h4{
+    font-size: 18px ;
+    line-height: 20px ;
+    font-weight: 100 ;
+    color:$s-c-t ;
+    margin:15px 0;
+
+}
+
+h5{
+
+
+}
+
+h6{
+
+}
+
+
+p{
+  color: $t-c-t;
+}
+
+span{
+    font-size: 14px ;
+    font-weight: 100 ;
+    color: $t-c-t;
+}
