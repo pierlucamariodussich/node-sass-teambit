@@ -1,0 +1,69 @@
+@use "partials/_bool";
+
+.cta{
+    background-color: $f-c-bg ;
+    .row{
+        .box{
+            border-radius: 10px;
+            background-color: $s-c-t;
+            br{
+                margin: 10px 0;
+            }
+            border: 1px solid $f-c-t;
+            span{
+                color:black;
+            }
+            .founder{
+
+                .photo{
+                    img{
+                        height: 50px;
+                    }
+                }
+                .description{
+                    span:first-child{
+                        color: $t-c-t;
+
+                    }
+
+                }
+
+            }
+            
+        }
+        .buttons{
+            margin-top: 60px;
+            margin-bottom: 10px;
+            button{
+                color: $s-c-t;
+                font-size: 15px;
+                font-weight: 500;
+                padding: 5px 15px;
+                border-radius: 8px;
+                border: none;
+                background-color: $f-c-but;
+                img{
+                    height: 25px;
+                    margin-right: 5px;
+                }
+            } 
+            p{
+                color:white;
+            }
+            button:first-child{
+                margin-right: 15px;
+            }   
+            button:last-child{
+                margin-left: 15px;
+            }   
+        }
+
+        span{
+            font-size: 14px ;
+            line-height: 20px ;
+            font-weight: 100 ;
+            color:$s-c-t ;
+        }
+        
+    }
+}
