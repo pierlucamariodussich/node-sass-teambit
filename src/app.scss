@@ -1,2 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-@import "_bool" ;
+@import "partials/_bool" ;
+@import "partials/_header";
+@import "partials/_jumbo";
+
+
+
+$f-c-bg: #ffe8d1;
+$s-c-bg: white;
+
+$f-c-t:#58402c;
+$s-c-t:#fffff4;
+$t-c-t:#317ad9;
+
+$f-c-but:#2d4792;
+$s-c-but:white;
+
+
+
+h1{
+    font-size: 35px ;
+    line-height: 50px ;
+    font-weight: 600 ;
+    color:$f-c-t ;
+    margin-bottom:15px;
+
+}
+
+h2{
+
+}
+
+h3{
+    font-size: 18px ;
+    line-height: 20px ;
+    font-weight: 400 ;
+    color:$f-c-t ;
+    margin:15px 0;
+
+}
+
+h4{
+
+}
+
+h5{
+
+
+}
+
+h6{
+
+}

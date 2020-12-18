@@ -4,3 +4,84 @@
         width: 100% * $i / 12;
     }
 }
+
+.full-w{
+    width: 100vw;
+}
+.full-h{
+    height: 100vh;
+}
+
+@for $i from 1 to 21{
+    .h-#{$i}{
+        height: 50px * $i ;
+    }
+}
+@for $i from 1 to 11{
+    .w-#{$i}{
+        width: 10% * $i ;
+    }
+}
+
+
+@each $el in  top,bottom,left,right{
+    @for $i from 1 to 11{
+        .m-#{$el}-#{$i}{
+            margin-#{$el}: 10px * $i
+        }
+        .p-#{$el}-#{$i}{
+            padding-#{$el}: 10px * $i
+        } 
+    }
+}
+
+@each $el in  top,bottom,left,right{
+        .m-#{$el}-0{
+            margin-#{$el}: 0;
+        }
+        .p-#{$el}-0{
+            padding-#{$el}: 0;
+        } 
+}
+
+.m-0{
+    margin: 0;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.d-flex{
+    display:flex;
+}
+.d-column{
+    flex-direction: column;
+}
+.d-row{
+    flex-direction: row;
+}
+.d-column-r{
+    flex-direction: column-reverse;
+}
+.d-row-r{
+    flex-direction: row-reverse;
+   
+}
+
+
+@each $el in center,flex-start,flex-end,baseline{
+        .ai-#{$el}{
+        align-items: #{$el};
+    }
+}
+
+@each $el in center,flex-start,flex-end,baseline{
+    .jc-#{$el}{
+    justify-content: #{$el};
+}
+}
+
+.debug{
+    border:1px solid black;
+}

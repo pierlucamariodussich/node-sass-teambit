@@ -1,0 +1,48 @@
+$f-c-bg: #ffe8d1;
+$s-c-bg: white;
+
+$f-c-t:#58402c;
+$s-c-t:#fffff4;
+$t-c-t:#317ad9;
+
+$f-c-but:#2d4792;
+$s-c-but:white;
+
+
+
+header{
+    .row{
+        border-bottom: 0.5px solid $f-c-t;
+        .col-6{
+            height: 60px;
+            img{
+                height: 25px;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    padding: 0 15px;
+                    a{
+                      color: $f-c-t;
+                      text-decoration: none;
+                      font-size: 15px;
+                      font-weight: 500;
+                    }
+                }
+            }
+            button{
+                
+                color: $f-c-t;
+                font-size: 15px;
+                font-weight: 500;
+                padding: 5px;
+                border-radius: 8px;
+                border: 1px solid $f-c-but;
+                background-color: $s-c-but;
+                img{
+                    height: 25px;
+                }
+            }
+        }
+    }
+}

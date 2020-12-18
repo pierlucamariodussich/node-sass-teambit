@@ -1,0 +1,47 @@
+
+$f-c-bg: #ffe8d1;
+$s-c-bg: white;
+
+$f-c-t:#58402c;
+$s-c-t:#fffff4;
+$t-c-t:#317ad9;
+
+$f-c-but:#2d4792;
+$s-c-but:white;
+
+.jumbo{
+    .row{
+        .col-6{
+            .buttons_row{
+                margin-top: 60px;
+                margin-bottom: 10px;
+                button{
+                    color: $s-c-t;
+                    font-size: 15px;
+                    font-weight: 500;
+                    padding: 5px 15px;
+                    border-radius: 8px;
+                    border: none;
+                    background-color: $f-c-but;
+                    img{
+                        height: 25px;
+                        margin-right: 5px;
+                    }
+                } 
+                button:first-child{
+                    margin-right: 15px;
+                }   
+                button:last-child{
+                    margin-left: 15px;
+                }   
+            }
+
+            span{
+                font-size: 14px ;
+                line-height: 20px ;
+                font-weight: 100 ;
+                color:$f-c-t ;
+            }
+        }
+    }
+}
